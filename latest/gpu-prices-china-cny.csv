@@ -1,1 +1,12 @@
 gpu_id,provider_id,kind,variant,currency,price_per_gpu_hour,region,machine,machine_gpus,machine_vcpus,machine_memory_gb,machine_network_gbps,zones_with_stock,zones,observed_at,source_url,record_id
+a10,aliyun,ON_DEMAND,gn7i,CNY,9.5326,cn-beijing,ecs.gn7i-c8g1.2xlarge,1,8,30,,0,4,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-a10-gn7i
+a10,aliyun,ON_DEMAND,ebmgn7ix,CNY,10.0934,cn-beijing,ecs.ebmgn7ix.32xlarge,8,128,512,,0,3,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-a10-ebmgn7ix
+a10,aliyun,ON_DEMAND,ebmgn7i,CNY,13.3083,cn-beijing,ecs.ebmgn7i.32xlarge,4,128,768,,0,2,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-a10-ebmgn7i
+l20,aliyun,ON_DEMAND,ebmgn8is,CNY,14.4133,cn-beijing,ecs.ebmgn8is.32xlarge,8,128,1024,,0,2,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-l20-ebmgn8is
+l20,aliyun,ON_DEMAND,gn8is,CNY,14.4151,cn-beijing,ecs.gn8is-8x.32xlarge,8,128,1024,,0,2,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-l20-gn8is
+l20,aliyun,ON_DEMAND,gn8ia,CNY,14.72,cn-beijing,ecs.gn8ia-2x.8xlarge,2,32,256,,3,3,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-l20-gn8ia
+l20,aliyun,ON_DEMAND,ebmgn8ia,CNY,23.94,cn-beijing,ecs.ebmgn8ia.64xlarge,4,256,1536,,1,2,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-l20-ebmgn8ia
+t4,aliyun,ON_DEMAND,gn6i,CNY,11.63,cn-beijing,ecs.gn6i-c4g1.xlarge,1,4,15,,1,6,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-t4-gn6i
+t4,aliyun,ON_DEMAND,ebmgn6i,CNY,17.1875,cn-beijing,ecs.ebmgn6i.24xlarge,4,96,384,,3,4,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-t4-ebmgn6i
+v100,aliyun,ON_DEMAND,gn6v,CNY,26.46,cn-beijing,ecs.gn6v-c8g1.16xlarge,8,64,256,,0,6,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-v100-gn6v
+v100-32gb,aliyun,ON_DEMAND,gn6e,CNY,19.739,cn-beijing,ecs.gn6e-c12g1.3xlarge,1,12,92,,5,5,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-v100-32gb-gn6e
