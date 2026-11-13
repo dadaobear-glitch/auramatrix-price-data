@@ -1,0 +1,1 @@
+gpu_id,provider_id,kind,variant,currency,price_per_gpu_hour,region,machine,machine_gpus,machine_vcpus,machine_memory_gb,machine_network_gbps,zones_with_stock,zones,observed_at,source_url,record_id

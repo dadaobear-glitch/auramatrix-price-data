@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+title: "AuraMatrix price data: LLM API token prices and GPU rental prices"
+authors:
+  - name: "AuraMatrix"
+url: "https://auramatrix.ai"
+repository-code: "https://github.com/dadaobear-glitch/auramatrix-price-data"
+license: CC-BY-4.0
+date-released: "2026-11-13"

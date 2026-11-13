@@ -1,0 +1,400 @@
+{
+ "version": "0.1-trial",
+ "status": "trial",
+ "unit": "index points, 100 on the base date",
+ "as_of": "2026-11-12T22:15:29Z",
+ "method": {
+  "price": "official USD standard list price on the model's reference channel, blended 3 parts input to 1 part output per 1M tokens",
+  "aggregation": "chained daily; geometric mean of price relatives over models present on both days; equal weights",
+  "entries_and_exits": "never move the index",
+  "page": "https://auramatrix.ai/prices/methodology#index"
+ },
+ "tiers": [
+  {
+   "tier": "FLAGSHIP",
+   "base_date": "2026-11-03",
+   "value": 100,
+   "level_usd_per_1m_blended": 5.331349027451058,
+   "constituents": [
+    {
+     "model_id": "anthropic/claude-fable-5.1",
+     "name": "Claude Fable 5.1",
+     "input": 10,
+     "output": 50,
+     "blended": 20,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "openai/gpt-6-astra",
+     "name": "GPT-6 Astra",
+     "input": 10,
+     "output": 50,
+     "blended": 20,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "anthropic/claude-fable-5.2",
+     "name": "Claude Fable 5.2",
+     "input": 8,
+     "output": 40,
+     "blended": 16,
+     "since": "2026-11-09"
+    },
+    {
+     "model_id": "anthropic/claude-mythos-5.2",
+     "name": "Claude Mythos 5.2",
+     "input": 8,
+     "output": 40,
+     "blended": 16,
+     "since": "2026-11-09"
+    },
+    {
+     "model_id": "anthropic/claude-opus-5.5",
+     "name": "Claude Opus 5.5",
+     "input": 4,
+     "output": 20,
+     "blended": 8,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "moonshot/kimi-k3",
+     "name": "Kimi K3",
+     "input": 3,
+     "output": 15,
+     "blended": 6,
+     "since": "2026-11-04"
+    },
+    {
+     "model_id": "google/gemini-4-argon",
+     "name": "Gemini 4 Argon",
+     "input": 2,
+     "output": 10,
+     "blended": 4,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "moonshot/kimi-k3.1-pro",
+     "name": "Kimi K3.1 Pro",
+     "input": 2,
+     "output": 10,
+     "blended": 4,
+     "since": "2026-11-04"
+    },
+    {
+     "model_id": "alibaba/qwen3.8-max",
+     "name": "Qwen3.8 Max",
+     "input": 2,
+     "output": 6,
+     "blended": 3,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "zhipu/glm-5.3",
+     "name": "GLM-5.3",
+     "input": 1.4,
+     "output": 4.4,
+     "blended": 2.15,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "deepseek/deepseek-v4-pro",
+     "name": "DeepSeek V4 Pro",
+     "input": 1.32,
+     "output": 3.96,
+     "blended": 1.98,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "minimax/minimax-m3",
+     "name": "MiniMax M3",
+     "input": 0.3,
+     "output": 1.2,
+     "blended": 0.5249999999999999,
+     "since": "2026-11-03"
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-11-03",
+     "value": 100,
+     "constituents": 8
+    },
+    {
+     "date": "2026-11-04",
+     "value": 100,
+     "constituents": 10
+    },
+    {
+     "date": "2026-11-05",
+     "value": 100,
+     "constituents": 10
+    },
+    {
+     "date": "2026-11-06",
+     "value": 100,
+     "constituents": 10
+    },
+    {
+     "date": "2026-11-07",
+     "value": 100,
+     "constituents": 10
+    },
+    {
+     "date": "2026-11-08",
+     "value": 100,
+     "constituents": 10
+    },
+    {
+     "date": "2026-11-09",
+     "value": 100,
+     "constituents": 12
+    },
+    {
+     "date": "2026-11-10",
+     "value": 100,
+     "constituents": 12
+    },
+    {
+     "date": "2026-11-11",
+     "value": 100,
+     "constituents": 12
+    },
+    {
+     "date": "2026-11-12",
+     "value": 100,
+     "constituents": 12
+    }
+   ],
+   "moves": [],
+   "announced": [
+    {
+     "date": "2026-12-01",
+     "value": 105.94630943592954,
+     "models": [
+      "google/gemini-4-argon"
+     ]
+    }
+   ]
+  },
+  {
+   "tier": "MID",
+   "base_date": "2026-11-03",
+   "value": 100,
+   "level_usd_per_1m_blended": 2.6321480259049848,
+   "constituents": [
+    {
+     "model_id": "anthropic/claude-sonnet-5.5",
+     "name": "Claude Sonnet 5.5",
+     "input": 2,
+     "output": 10,
+     "blended": 4,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "openai/gpt-6.1-sol",
+     "name": "GPT-6.1 Sol",
+     "input": 2,
+     "output": 10,
+     "blended": 4,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "openai/gpt-6.1-terra",
+     "name": "GPT-6.1 Terra",
+     "input": 1,
+     "output": 5,
+     "blended": 2,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "google/gemini-3.8-flash",
+     "name": "Gemini 3.8 Flash",
+     "input": 0.75,
+     "output": 3.75,
+     "blended": 1.5,
+     "since": "2026-11-03"
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-11-03",
+     "value": 100,
+     "constituents": 4
+    },
+    {
+     "date": "2026-11-04",
+     "value": 100,
+     "constituents": 4
+    },
+    {
+     "date": "2026-11-05",
+     "value": 100,
+     "constituents": 4
+    },
+    {
+     "date": "2026-11-06",
+     "value": 100,
+     "constituents": 4
+    },
+    {
+     "date": "2026-11-07",
+     "value": 100,
+     "constituents": 4
+    },
+    {
+     "date": "2026-11-08",
+     "value": 100,
+     "constituents": 4
+    },
+    {
+     "date": "2026-11-09",
+     "value": 100,
+     "constituents": 4
+    },
+    {
+     "date": "2026-11-10",
+     "value": 100,
+     "constituents": 4
+    },
+    {
+     "date": "2026-11-11",
+     "value": 100,
+     "constituents": 4
+    },
+    {
+     "date": "2026-11-12",
+     "value": 100,
+     "constituents": 4
+    }
+   ],
+   "moves": [],
+   "announced": [
+    {
+     "date": "2027-01-01",
+     "value": 118.9207115002721,
+     "models": [
+      "google/gemini-3.8-flash"
+     ]
+    }
+   ]
+  },
+  {
+   "tier": "SMALL",
+   "base_date": "2026-11-03",
+   "value": 100,
+   "level_usd_per_1m_blended": 0.3068173072142058,
+   "constituents": [
+    {
+     "model_id": "google/gemini-3.5-flash-lite",
+     "name": "Gemini 3.5 Flash-Lite",
+     "input": 0.3,
+     "output": 2.5,
+     "blended": 0.85,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "name": "DeepSeek V4.1 Flash",
+     "input": 0.3,
+     "output": 1.2,
+     "blended": 0.5249999999999999,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "minimax/minimax-m3.1-flash",
+     "name": "MiniMax M3.1 Flash",
+     "input": 0.15,
+     "output": 0.6,
+     "blended": 0.26249999999999996,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "zhipu/glm-5.3-flash",
+     "name": "GLM-5.3-Flash",
+     "input": 0.15,
+     "output": 0.5,
+     "blended": 0.2375,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "alibaba/qwen3.8-flash",
+     "name": "Qwen3.8 Flash",
+     "input": 0.15,
+     "output": 0.47,
+     "blended": 0.22999999999999998,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "anthropic/claude-haiku-5.5",
+     "name": "Claude Haiku 5.5",
+     "input": 0.1,
+     "output": 0.5,
+     "blended": 0.2,
+     "since": "2026-11-03"
+    },
+    {
+     "model_id": "openai/gpt-6-luna",
+     "name": "GPT-6 Luna",
+     "input": 0.1,
+     "output": 0.5,
+     "blended": 0.2,
+     "since": "2026-11-03"
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-11-03",
+     "value": 100,
+     "constituents": 7
+    },
+    {
+     "date": "2026-11-04",
+     "value": 100,
+     "constituents": 7
+    },
+    {
+     "date": "2026-11-05",
+     "value": 100,
+     "constituents": 7
+    },
+    {
+     "date": "2026-11-06",
+     "value": 100,
+     "constituents": 7
+    },
+    {
+     "date": "2026-11-07",
+     "value": 100,
+     "constituents": 7
+    },
+    {
+     "date": "2026-11-08",
+     "value": 100,
+     "constituents": 7
+    },
+    {
+     "date": "2026-11-09",
+     "value": 100,
+     "constituents": 7
+    },
+    {
+     "date": "2026-11-10",
+     "value": 100,
+     "constituents": 7
+    },
+    {
+     "date": "2026-11-11",
+     "value": 100,
+     "constituents": 7
+    },
+    {
+     "date": "2026-11-12",
+     "value": 100,
+     "constituents": 7
+    }
+   ],
+   "moves": [],
+   "announced": []
+  }
+ ]
+}
