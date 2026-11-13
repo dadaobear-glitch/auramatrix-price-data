@@ -2,6 +2,9 @@ kind,model_id,channel_id,service_plan,currency,input_from,input_to,output_from,o
 announced,google/gemini-3.8-flash,gemini-api,STANDARD,USD,0.75,1.5,3.75,7.5,2026-11-03T03:28:10Z,2027-01-01
 announced,google/gemini-4-argon,gemini-api,STANDARD,USD,2,4,10,20,2026-11-10T22:15:02Z,2026-12-01
 announced,google/gemini-4-argon,gemini-api,BATCH,USD,1,2,5,10,2026-11-10T22:15:02Z,2026-12-01
+observed,deepseek/deepseek-v4-pro,openrouter,STANDARD,USD,0.888966,0.9,1.777932,1.5,2026-11-13T22:15:06Z,
+observed,moonshot/kimi-k3.1-pro,openrouter,STANDARD,USD,0.2375,2,8.4114,10,2026-11-13T22:15:06Z,
+observed,zhipu/glm-5.3,openrouter,STANDARD,USD,0.0699,0.084,1.4,3.6,2026-11-13T22:15:06Z,
 observed,deepseek/deepseek-v4-pro,openrouter,STANDARD,USD,0.875394,0.888966,1.750788,1.777932,2026-11-12T22:15:06Z,
 observed,deepseek/deepseek-v4.1-flash,openrouter,STANDARD,USD,0.051,0.3,0.567,1.2,2026-11-12T22:15:06Z,
 observed,moonshot/kimi-k3.1-pro,openrouter,STANDARD,USD,2,0.2375,10,8.4114,2026-11-12T22:15:06Z,
