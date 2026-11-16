@@ -1,7 +1,7 @@
 # AuraMatrix price data
 
 What AI compute costs, with a source for every number: list prices of language-model APIs per channel, and GPU rental prices
-per provider. This repository is the open copy of what [auramatrix.ai](https://auramatrix.ai) publishes, refreshed every day.
+per provider. This repository is the open copy of what [auramatrix.ai](https://auramatrix.ai/?ref=github-data) publishes, refreshed every day.
 
 **Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).** Use it for anything, including commercially. Give credit as:
 
@@ -28,11 +28,11 @@ per provider. This repository is the open copy of what [auramatrix.ai](https://a
 - A GPU price from a provider that sells whole machines is the machine price divided by its GPU count.
 - Coverage: models and channels from the United States and China.
 
-How the data is collected and checked: <https://auramatrix.ai/prices/methodology>. How often it has been right: <https://auramatrix.ai/prices/accuracy>.
+How the data is collected and checked: <https://auramatrix.ai/prices/methodology?ref=github-data>. How often it has been right: <https://auramatrix.ai/prices/accuracy?ref=github-data>.
 
 ## Use it from an AI assistant
 
-The same data is an MCP server (no key): `https://auramatrix.ai/mcp`. Setup: <https://auramatrix.ai/connect>.
+The same data is an MCP server (no key): `https://auramatrix.ai/mcp`. Setup: <https://auramatrix.ai/connect?ref=github-data>.
 JSON without MCP: `https://auramatrix.ai/prices/index.json`, `https://auramatrix.ai/prices/v1/compute`.
 
 Corrections: hello@auramatrix.ai
