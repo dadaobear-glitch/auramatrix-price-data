@@ -2,7 +2,7 @@ gpu_id,provider_id,kind,variant,currency,price_per_gpu_hour,region,machine,machi
 a100-80gb,azure,SPOT,NC24ads_A100_v4,USD,0.6788,eastus,Standard_NC24ads_A100_v4,1,24,220,20,,,2026-11-13T05:18:37Z,https://prices.azure.com/api/retail/prices,c-20261113b-azure-a100-80gb-spot-nc24adsa100v4
 a100-80gb,azure,SPOT,NC48ads_A100_v4,USD,0.6788,eastus,Standard_NC48ads_A100_v4,2,48,440,40,,,2026-11-13T05:18:37Z,https://prices.azure.com/api/retail/prices,c-20261113b-azure-a100-80gb-spot-nc48adsa100v4
 a100-80gb,azure,SPOT,NC96ads_A100_v4,USD,0.6788,eastus,Standard_NC96ads_A100_v4,4,96,880,80,,,2026-11-13T05:18:37Z,https://prices.azure.com/api/retail/prices,c-20261113b-azure-a100-80gb-spot-nc96adsa100v4
-a100-80gb,vast,MARKET,SXM4,USD,0.8435,,,,,,,,,2026-11-24T22:16:13Z,https://console.vast.ai/api/v0/bundles/,c-20261124-vast-a100-80gb-market-sxm4
+a100-80gb,vast,MARKET,SXM4,USD,0.845,,,,,,,,,2026-11-25T22:16:03Z,https://console.vast.ai/api/v0/bundles/,c-20261125-vast-a100-80gb-market-sxm4
 a100-80gb,azure,SPOT,ND96amsr_A100_v4,USD,0.8586,centralus,Standard_ND96amsr_A100_v4,8,96,1900,24,,,2026-11-13T05:18:37Z,https://prices.azure.com/api/retail/prices,c-20261113b-azure-a100-80gb-spot-nd96amsra100v4
 a100-80gb,coreweave,SPOT,,USD,1.1887,,8 GPUs,8,,,,,,2026-11-11T22:16:53Z,https://www.coreweave.com/pricing,c-20261111b-coreweave-a100-80gb-spot
 a100-80gb,runpod-community,ON_DEMAND,PCIe,USD,1.19,,,,,,,,,2026-11-11T08:38:36Z,https://api.runpod.io/graphql,c-20261111-runpod-community-a100-80gb-ondemand-pcie
@@ -11,7 +11,7 @@ a100-80gb,azure,RESERVED_3Y,NC48ads_A100_v4,USD,1.3631,eastus,Standard_NC48ads_A
 a100-80gb,azure,RESERVED_3Y,NC96ads_A100_v4,USD,1.3631,eastus,Standard_NC96ads_A100_v4,4,96,880,80,,,2026-11-13T05:18:37Z,https://prices.azure.com/api/retail/prices,c-20261113b-azure-a100-80gb-reserved3y-nc96adsa100v4
 a100-80gb,runpod-community,ON_DEMAND,SXM,USD,1.39,,,,,,,,,2026-11-11T08:38:36Z,https://api.runpod.io/graphql,c-20261111-runpod-community-a100-80gb-ondemand-sxm
 a100-80gb,aws,RESERVED_3Y,p4de.24xlarge,USD,1.4647,us-east-1,p4de.24xlarge,8,96,1152,,,,2026-11-11T12:28:15Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261111-aws-a100-80gb-reserved3y-p4de.24xlarge
-a100-80gb,aws,SPOT,p4de.24xlarge,USD,1.5545,us-west-2b,p4de.24xlarge,8,96,1152,,,,2026-11-24T22:16:18Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261124-aws-a100-80gb-spot-p4de.24xlarge
+a100-80gb,aws,SPOT,p4de.24xlarge,USD,1.5693,us-west-2b,p4de.24xlarge,8,96,1152,,,,2026-11-25T22:16:09Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261125-aws-a100-80gb-spot-p4de.24xlarge
 a100-80gb,azure,RESERVED_3Y,ND96amsr_A100_v4,USD,1.8023,eastus,Standard_ND96amsr_A100_v4,8,96,1900,24,,,2026-11-13T05:18:37Z,https://prices.azure.com/api/retail/prices,c-20261113b-azure-a100-80gb-reserved3y-nd96amsra100v4
 a100-80gb,runpod-secure,ON_DEMAND,PCIe,USD,2.09,,,,,,,,,2026-11-12T22:17:56Z,https://api.runpod.io/graphql,c-20261112b-runpod-secure-a100-80gb-ondemand-pcie
 a100-80gb,aws,RESERVED_1Y,p4de.24xlarge,USD,2.1752,us-east-1,p4de.24xlarge,8,96,1152,,,,2026-11-11T12:28:15Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261111-aws-a100-80gb-reserved1y-p4de.24xlarge
@@ -31,24 +31,24 @@ a100-80gb,azure,ON_DEMAND,ND96amsr_A100_v4,USD,4.0963,eastus,Standard_ND96amsr_A
 a100-80gb,gcp,ON_DEMAND,a2-ultragpu-8g,USD,5.0277,us-central1,a2-ultragpu-8g,8,96,1360,100,,,2026-11-13T05:18:55Z,https://cloud.google.com/compute/docs/gpus,c-20261113b-gcp-a100-80gb-ondemand-a2-ultragpu-8g
 b200,together,SPOT,,USD,4.09,,,,,,,,,2026-11-12T05:03:54Z,https://www.together.ai/pricing,c-20261112-together-b200-spot
 b200,coreweave,SPOT,HGX B200,USD,4.3587,,HGX B200 x8,8,128,2048,,,,2026-11-13T03:44:21Z,https://www.coreweave.com/pricing,c-20261113-coreweave-b200-spot-hgxb200
-b200,aws,SPOT,p6-b200.48xlarge,USD,5.3542,us-west-2b,p6-b200.48xlarge,8,192,2048,3200,,,2026-11-24T22:16:18Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261124-aws-b200-spot-p6-b200.48xlarge
+b200,aws,SPOT,p6-b200.48xlarge,USD,5.3543,us-west-2b,p6-b200.48xlarge,8,192,2048,3200,,,2026-11-25T22:16:09Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261125-aws-b200-spot-p6-b200.48xlarge
 b200,runpod-community,ON_DEMAND,,USD,5.98,,,,,,,,,2026-11-11T08:38:36Z,https://api.runpod.io/graphql,c-20261111-runpod-community-b200-ondemand
 b200,lambda,ON_DEMAND,,USD,7.69,,,,,,,,,2026-11-11T08:38:41Z,https://lambda.ai/pricing,c-20261111-lambda-b200-ondemand
 b200,lambda,ON_DEMAND,HGX B200,USD,7.69,,,,,,,,,2026-11-11T22:16:52Z,https://lambda.ai/pricing,c-20261111b-lambda-b200-ondemand-hgxb200
-b200,vast,MARKET,,USD,7.8896,,,,,,,,,2026-11-24T22:16:13Z,https://console.vast.ai/api/v0/bundles/,c-20261124-vast-b200-market
-b200,runpod-secure,ON_DEMAND,,USD,7.99,,,,,,,,,2026-11-11T08:38:36Z,https://api.runpod.io/graphql,c-20261111-runpod-secure-b200-ondemand
 b200,together,ON_DEMAND,,USD,8.19,,,,,,,,,2026-11-12T05:03:54Z,https://www.together.ai/pricing,c-20261112-together-b200-ondemand
 b200,coreweave,ON_DEMAND,HGX B200,USD,8.6,,HGX B200 x8,8,128,2048,,,,2026-11-13T03:44:21Z,https://www.coreweave.com/pricing,c-20261113-coreweave-b200-ondemand-hgxb200
+b200,runpod-secure,ON_DEMAND,,USD,8.99,,,,,,,,,2026-11-25T22:15:58Z,https://api.runpod.io/graphql,c-20261125-runpod-secure-b200-ondemand
+b200,vast,MARKET,,USD,10.627,,,,,,,,,2026-11-25T22:16:03Z,https://console.vast.ai/api/v0/bundles/,c-20261125-vast-b200-market
 b200,aws,ON_DEMAND,p6-b200.48xlarge,USD,14.2416,us-east-1,p6-b200.48xlarge,8,192,2048,3200,,,2026-11-13T05:18:46Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261113b-aws-b200-ondemand-p6-b200.48xlarge
 b200,gcp,ON_DEMAND,a4-highgpu-8g,USD,16.11,us-central1,a4-highgpu-8g,8,224,3968,3600,,,2026-11-13T05:18:55Z,https://cloud.google.com/compute/docs/gpus,c-20261113b-gcp-b200-ondemand-a4-highgpu-8g
 b300,coreweave,SPOT,HGX B300,USD,4.5875,,HGX B300 x8,8,192,4096,,,,2026-11-13T03:44:21Z,https://www.coreweave.com/pricing,c-20261113-coreweave-b300-spot-hgxb300
 b300,together,SPOT,,USD,4.99,,,,,,,,,2026-11-12T05:03:54Z,https://www.together.ai/pricing,c-20261112-together-b300-spot
-b300,aws,SPOT,p6-b300.48xlarge,USD,6.6563,us-west-2b,p6-b300.48xlarge,8,192,4096,6400,,,2026-11-24T22:16:18Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261124-aws-b300-spot-p6-b300.48xlarge
+b300,aws,SPOT,p6-b300.48xlarge,USD,6.8041,us-west-2b,p6-b300.48xlarge,8,192,4096,6400,,,2026-11-25T22:16:09Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261125-aws-b300-spot-p6-b300.48xlarge
 b300,together,ON_DEMAND,,USD,9.99,,,,,,,,,2026-11-12T05:03:54Z,https://www.together.ai/pricing,c-20261112-together-b300-ondemand
 b300,aws,ON_DEMAND,p6-b300.48xlarge,USD,17.802,us-east-1,p6-b300.48xlarge,8,192,4096,6400,,,2026-11-13T05:18:46Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261113b-aws-b300-ondemand-p6-b300.48xlarge
 h100,azure,SPOT,NC40ads_H100_v5,USD,1.4183,eastus,Standard_NC40ads_H100_v5,1,40,320,40,,,2026-11-13T05:18:37Z,https://prices.azure.com/api/retail/prices,c-20261113b-azure-h100-spot-nc40adsh100v5
 h100,azure,SPOT,NC80adis_H100_v5,USD,1.4183,eastus,Standard_NC80adis_H100_v5,2,80,640,80,,,2026-11-13T05:18:37Z,https://prices.azure.com/api/retail/prices,c-20261113b-azure-h100-spot-nc80adish100v5
-h100,vast,MARKET,SXM,USD,1.7883,,,,,,,,,2026-11-23T22:16:05Z,https://console.vast.ai/api/v0/bundles/,c-20261123-vast-h100-market-sxm
+h100,vast,MARKET,SXM,USD,1.7889,,,,,,,,,2026-11-25T22:16:03Z,https://console.vast.ai/api/v0/bundles/,c-20261125-vast-h100-market-sxm
 h100,runpod-community,ON_DEMAND,PCIe,USD,1.99,,,,,,,,,2026-11-11T08:38:36Z,https://api.runpod.io/graphql,c-20261111-runpod-community-h100-ondemand-pcie
 h100,together,SPOT,,USD,1.99,,,,,,,,,2026-11-12T05:03:54Z,https://www.together.ai/pricing,c-20261112-together-h100-spot
 h100,vast,MARKET,NVL,USD,2.003,,,,,,,,,2026-11-24T22:16:13Z,https://console.vast.ai/api/v0/bundles/,c-20261124-vast-h100-market-nvl
@@ -61,7 +61,7 @@ h100,runpod-secure,ON_DEMAND,PCIe,USD,2.89,,,,,,,,,2026-11-11T08:38:36Z,https://
 h100,aws,RESERVED_3Y,p5.48xlarge,USD,2.9722,us-east-1,p5.48xlarge,8,192,2048,3200,,,2026-11-13T05:18:46Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261113b-aws-h100-reserved3y-p5.48xlarge
 h100,aws,RESERVED_3Y,p5.4xlarge,USD,2.9722,us-east-1,p5.4xlarge,1,16,256,100,,,2026-11-13T05:18:46Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261113b-aws-h100-reserved3y-p5.4xlarge
 h100,runpod-secure,ON_DEMAND,NVL,USD,3.19,,,,,,,,,2026-11-11T08:38:36Z,https://api.runpod.io/graphql,c-20261111-runpod-secure-h100-ondemand-nvl
-h100,aws,SPOT,p5.4xlarge,USD,3.7157,us-west-2c,p5.4xlarge,1,16,256,100,,,2026-11-24T22:16:18Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261124-aws-h100-spot-p5.4xlarge
+h100,aws,SPOT,p5.4xlarge,USD,3.641,us-west-2c,p5.4xlarge,1,16,256,100,,,2026-11-25T22:16:09Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261125-aws-h100-spot-p5.4xlarge
 h100,lambda,ON_DEMAND,H100 PCIe,USD,3.79,,,,,,,,,2026-11-11T22:16:52Z,https://lambda.ai/pricing,c-20261111b-lambda-h100-ondemand-h100pcie
 h100,azure,RESERVED_3Y,NC40ads_H100_v5,USD,3.839,eastus,Standard_NC40ads_H100_v5,1,40,320,40,,,2026-11-13T05:18:37Z,https://prices.azure.com/api/retail/prices,c-20261113b-azure-h100-reserved3y-nc40adsh100v5
 h100,azure,RESERVED_3Y,NC80adis_H100_v5,USD,3.839,eastus,Standard_NC80adis_H100_v5,2,80,640,80,,,2026-11-13T05:18:37Z,https://prices.azure.com/api/retail/prices,c-20261113b-azure-h100-reserved3y-nc80adish100v5
@@ -82,9 +82,9 @@ h100,azure,ON_DEMAND,ND96isr_H100_v5,USD,12.29,eastus,Standard_ND96isr_H100_v5,8
 h200,coreweave,SPOT,HGX H200,USD,2.58,,HGX H200 x8,8,128,2048,,,,2026-11-13T03:44:21Z,https://www.coreweave.com/pricing,c-20261113-coreweave-h200-spot-hgxh200
 h200,together,SPOT,,USD,2.99,,,,,,,,,2026-11-12T05:03:54Z,https://www.together.ai/pricing,c-20261112-together-h200-spot
 h200,runpod-community,ON_DEMAND,SXM,USD,3.59,,,,,,,,,2026-11-11T08:38:36Z,https://api.runpod.io/graphql,c-20261111-runpod-community-h200-ondemand-sxm
-h200,aws,SPOT,p5en.48xlarge,USD,3.7854,us-east-2b,p5en.48xlarge,8,192,2048,3200,,,2026-11-24T22:16:18Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261124-aws-h200-spot-p5en.48xlarge
+h200,aws,SPOT,p5en.48xlarge,USD,3.6444,us-east-2b,p5en.48xlarge,8,192,2048,3200,,,2026-11-25T22:16:09Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261125-aws-h200-spot-p5en.48xlarge
 h200,runpod-secure,ON_DEMAND,NVL,USD,3.79,,,,,,,,,2026-11-11T08:38:36Z,https://api.runpod.io/graphql,c-20261111-runpod-secure-h200-ondemand-nvl
-h200,vast,MARKET,,USD,5.2643,,,,,,,,,2026-11-24T22:16:13Z,https://console.vast.ai/api/v0/bundles/,c-20261124-vast-h200-market
+h200,vast,MARKET,,USD,4.6071,,,,,,,,,2026-11-25T22:16:03Z,https://console.vast.ai/api/v0/bundles/,c-20261125-vast-h200-market
 h200,azure,RESERVED_3Y,ND96isr_H200_v5,USD,5.2777,eastus2,Standard_ND96isr_H200_v5,8,96,1850,80,,,2026-11-13T05:18:37Z,https://prices.azure.com/api/retail/prices,c-20261113b-azure-h200-reserved3y-nd96isrh200v5
 h200,runpod-secure,ON_DEMAND,SXM,USD,5.29,,,,,,,,,2026-11-11T08:38:36Z,https://api.runpod.io/graphql,c-20261111-runpod-secure-h200-ondemand-sxm
 h200,azure,RESERVED_1Y,ND96isr_H200_v5,USD,5.8152,eastus2,Standard_ND96isr_H200_v5,8,96,1850,80,,,2026-11-13T05:18:37Z,https://prices.azure.com/api/retail/prices,c-20261113b-azure-h200-reserved1y-nd96isrh200v5
@@ -94,16 +94,16 @@ h200,aws,ON_DEMAND,p5en.48xlarge,USD,7.912,us-east-1,p5en.48xlarge,8,192,2048,32
 h200,gcp,ON_DEMAND,a3-ultragpu-8g,USD,10.4365,us-central1,a3-ultragpu-8g,8,224,2952,3600,,,2026-11-13T05:18:55Z,https://cloud.google.com/compute/docs/gpus,c-20261113b-gcp-h200-ondemand-a3-ultragpu-8g
 h200,azure,ON_DEMAND,ND96isr_H200_v5,USD,10.6,eastus2,Standard_ND96isr_H200_v5,8,96,1850,80,,,2026-11-13T05:18:37Z,https://prices.azure.com/api/retail/prices,c-20261113b-azure-h200-ondemand-nd96isrh200v5
 h200,azure,SPOT,ND96isr_H200_v5,USD,10.6,eastus2,Standard_ND96isr_H200_v5,8,96,1850,80,,,2026-11-13T05:18:37Z,https://prices.azure.com/api/retail/prices,c-20261113b-azure-h200-spot-nd96isrh200v5
-l40s,aws,SPOT,g6e.48xlarge,USD,0.6941,us-east-1a,g6e.48xlarge,8,192,1536,400,,,2026-11-24T22:16:18Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261124-aws-l40s-spot-g6e.48xlarge
-l40s,vast,MARKET,,USD,0.7348,,,,,,,,,2026-11-24T22:16:13Z,https://console.vast.ai/api/v0/bundles/,c-20261124-vast-l40s-market
+l40s,aws,SPOT,g6e.48xlarge,USD,0.6702,us-east-1a,g6e.48xlarge,8,192,1536,400,,,2026-11-25T22:16:09Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261125-aws-l40s-spot-g6e.48xlarge
+l40s,vast,MARKET,,USD,0.7013,,,,,,,,,2026-11-25T22:16:03Z,https://console.vast.ai/api/v0/bundles/,c-20261125-vast-l40s-market
 l40s,runpod-community,ON_DEMAND,,USD,0.79,,,,,,,,,2026-11-11T08:38:36Z,https://api.runpod.io/graphql,c-20261111-runpod-community-l40s-ondemand
 l40s,aws,RESERVED_3Y,g6e.xlarge,USD,0.804,us-east-1,g6e.xlarge,1,4,32,,,,2026-11-11T12:28:15Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261111-aws-l40s-reserved3y-g6e.xlarge
 l40s,coreweave,SPOT,,USD,0.985,,8 GPUs,8,,,,,,2026-11-11T22:16:53Z,https://www.coreweave.com/pricing,c-20261111b-coreweave-l40s-spot
 l40s,runpod-secure,ON_DEMAND,,USD,1.09,,,,,,,,,2026-11-11T08:38:36Z,https://api.runpod.io/graphql,c-20261111-runpod-secure-l40s-ondemand
 l40s,aws,RESERVED_3Y,g6e.12xlarge,USD,1.1332,us-east-1,g6e.12xlarge,4,48,384,100,,,2026-11-13T05:18:46Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261113b-aws-l40s-reserved3y-g6e.12xlarge
 l40s,aws,RESERVED_1Y,g6e.xlarge,USD,1.1724,us-east-1,g6e.xlarge,1,4,32,,,,2026-11-11T12:28:15Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261111-aws-l40s-reserved1y-g6e.xlarge
-l40s,aws,SPOT,g6e.12xlarge,USD,1.3265,us-east-2b,g6e.12xlarge,4,48,384,100,,,2026-11-24T22:16:18Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261124-aws-l40s-spot-g6e.12xlarge
-l40s,aws,SPOT,g6e.xlarge,USD,1.5202,us-east-1d,g6e.xlarge,1,4,32,,,,2026-11-24T22:16:18Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261124-aws-l40s-spot-g6e.xlarge
+l40s,aws,SPOT,g6e.12xlarge,USD,1.3395,us-east-2b,g6e.12xlarge,4,48,384,100,,,2026-11-25T22:16:09Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261125-aws-l40s-spot-g6e.12xlarge
+l40s,aws,SPOT,g6e.xlarge,USD,1.4876,us-east-1d,g6e.xlarge,1,4,32,,,,2026-11-25T22:16:09Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261125-aws-l40s-spot-g6e.xlarge
 l40s,aws,RESERVED_3Y,g6e.48xlarge,USD,1.6271,us-east-1,g6e.48xlarge,8,192,1536,400,,,2026-11-13T05:18:46Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261113b-aws-l40s-reserved3y-g6e.48xlarge
 l40s,aws,RESERVED_1Y,g6e.12xlarge,USD,1.6526,us-east-1,g6e.12xlarge,4,48,384,100,,,2026-11-13T05:18:46Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261113b-aws-l40s-reserved1y-g6e.12xlarge
 l40s,aws,ON_DEMAND,g6e.xlarge,USD,1.861,us-east-1,g6e.xlarge,1,4,32,,,,2026-11-11T12:28:15Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261111-aws-l40s-ondemand-g6e.xlarge
@@ -112,15 +112,15 @@ l40s,aws,RESERVED_1Y,g6e.48xlarge,USD,2.3728,us-east-1,g6e.48xlarge,8,192,1536,4
 l40s,aws,ON_DEMAND,g6e.12xlarge,USD,2.6232,us-east-1,g6e.12xlarge,4,48,384,100,,,2026-11-13T05:18:46Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261113b-aws-l40s-ondemand-g6e.12xlarge
 l40s,aws,ON_DEMAND,g6e.48xlarge,USD,3.7664,us-east-1,g6e.48xlarge,8,192,1536,400,,,2026-11-13T05:18:46Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261113b-aws-l40s-ondemand-g6e.48xlarge
 rtx-4090,runpod-community,ON_DEMAND,,USD,0.34,,,,,,,,,2026-11-11T08:38:36Z,https://api.runpod.io/graphql,c-20261111-runpod-community-rtx-4090-ondemand
-rtx-4090,vast,MARKET,,USD,0.4433,,,,,,,,,2026-11-24T22:16:13Z,https://console.vast.ai/api/v0/bundles/,c-20261124-vast-rtx-4090-market
+rtx-4090,vast,MARKET,,USD,0.468,,,,,,,,,2026-11-25T22:16:03Z,https://console.vast.ai/api/v0/bundles/,c-20261125-vast-rtx-4090-market
 rtx-4090,runpod-secure,ON_DEMAND,,USD,0.89,,,,,,,,,2026-11-11T08:38:36Z,https://api.runpod.io/graphql,c-20261111-runpod-secure-rtx-4090-ondemand
-rtx-5090,vast,MARKET,,USD,0.6022,,,,,,,,,2026-11-24T22:16:13Z,https://console.vast.ai/api/v0/bundles/,c-20261124-vast-rtx-5090-market
+rtx-5090,vast,MARKET,,USD,0.6015,,,,,,,,,2026-11-25T22:16:03Z,https://console.vast.ai/api/v0/bundles/,c-20261125-vast-rtx-5090-market
 rtx-5090,runpod-community,ON_DEMAND,,USD,0.69,,,,,,,,,2026-11-11T08:38:36Z,https://api.runpod.io/graphql,c-20261111-runpod-community-rtx-5090-ondemand
 rtx-5090,runpod-secure,ON_DEMAND,,USD,1.39,,,,,,,,,2026-11-12T22:17:56Z,https://api.runpod.io/graphql,c-20261112b-runpod-secure-rtx-5090-ondemand
-t4,aws,SPOT,g4dn.xlarge,USD,0.2104,us-east-1a,g4dn.xlarge,1,4,16,,,,2026-11-24T22:16:18Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261124-aws-t4-spot-g4dn.xlarge
+t4,aws,SPOT,g4dn.xlarge,USD,0.2116,us-east-1a,g4dn.xlarge,1,4,16,,,,2026-11-25T22:16:09Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261125-aws-t4-spot-g4dn.xlarge
 t4,aws,RESERVED_3Y,g4dn.xlarge,USD,0.227,us-east-1,g4dn.xlarge,1,4,16,,,,2026-11-13T10:18:02Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261113e-aws-t4-reserved3y-g4dn.xlarge
-t4,aws,SPOT,g4dn.12xlarge,USD,0.3306,us-east-1f,g4dn.12xlarge,4,48,192,50,,,2026-11-24T22:16:18Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261124-aws-t4-spot-g4dn.12xlarge
 t4,aws,RESERVED_1Y,g4dn.xlarge,USD,0.331,us-east-1,g4dn.xlarge,1,4,16,,,,2026-11-13T10:18:02Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261113e-aws-t4-reserved1y-g4dn.xlarge
+t4,aws,SPOT,g4dn.12xlarge,USD,0.3372,us-east-1f,g4dn.12xlarge,4,48,192,50,,,2026-11-25T22:16:09Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261125-aws-t4-spot-g4dn.12xlarge
 t4,aws,RESERVED_3Y,g4dn.12xlarge,USD,0.4225,us-east-1,g4dn.12xlarge,4,48,192,50,,,2026-11-13T10:18:02Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261113e-aws-t4-reserved3y-g4dn.12xlarge
 t4,aws,ON_DEMAND,g4dn.xlarge,USD,0.526,us-east-1,g4dn.xlarge,1,4,16,,,,2026-11-13T10:18:02Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261113e-aws-t4-ondemand-g4dn.xlarge
 t4,aws,RESERVED_1Y,g4dn.12xlarge,USD,0.6162,us-east-1,g4dn.12xlarge,4,48,192,50,,,2026-11-13T10:18:02Z,https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSpotPriceHistory.html,c-20261113e-aws-t4-reserved1y-g4dn.12xlarge

@@ -2,7 +2,7 @@
  "version": "0.1-trial",
  "status": "trial",
  "unit": "index points, 100 on the base date",
- "as_of": "2026-11-24T22:15:40Z",
+ "as_of": "2026-11-25T22:15:39Z",
  "method": {
   "price": "official USD standard list price on the model's reference channel, blended 3 parts input to 1 part output per 1M tokens",
   "aggregation": "chained daily; geometric mean of price relatives over models present on both days; equal weights",
@@ -231,6 +231,11 @@
      "date": "2026-11-24",
      "value": 100,
      "constituents": 13
+    },
+    {
+     "date": "2026-11-25",
+     "value": 100,
+     "constituents": 13
     }
    ],
    "moves": [],
@@ -399,6 +404,11 @@
     },
     {
      "date": "2026-11-24",
+     "value": 100,
+     "constituents": 5
+    },
+    {
+     "date": "2026-11-25",
      "value": 100,
      "constituents": 5
     }
@@ -585,6 +595,11 @@
     },
     {
      "date": "2026-11-24",
+     "value": 100,
+     "constituents": 7
+    },
+    {
+     "date": "2026-11-25",
      "value": 100,
      "constituents": 7
     }
