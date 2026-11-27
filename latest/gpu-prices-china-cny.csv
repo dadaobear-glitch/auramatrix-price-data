@@ -1,5 +1,5 @@
 gpu_id,provider_id,kind,variant,currency,price_per_gpu_hour,region,machine,machine_gpus,machine_vcpus,machine_memory_gb,machine_network_gbps,zones_with_stock,zones,observed_at,source_url,record_id
-a10,aliyun,ON_DEMAND,gn7i,CNY,9.5326,cn-beijing,ecs.gn7i-c8g1.2xlarge,1,8,30,,1,4,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-a10-gn7i
+a10,aliyun,ON_DEMAND,gn7i,CNY,9.5326,cn-beijing,ecs.gn7i-c8g1.2xlarge,1,8,30,,3,4,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-a10-gn7i
 a10,aliyun,ON_DEMAND,ebmgn7ix,CNY,10.0934,cn-beijing,ecs.ebmgn7ix.32xlarge,8,128,512,,1,3,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-a10-ebmgn7ix
 a10,aliyun,ON_DEMAND,ebmgn7i,CNY,13.3083,cn-beijing,ecs.ebmgn7i.32xlarge,4,128,768,,0,2,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-a10-ebmgn7i
 l20,aliyun,ON_DEMAND,ebmgn8is,CNY,14.4133,cn-beijing,ecs.ebmgn8is.32xlarge,8,128,1024,,0,2,2026-11-13T10:16:52Z,https://api.aliyun.com/api/Ecs/2014-05-26/DescribePrice,cn-20261113d-aliyun-l20-ebmgn8is
